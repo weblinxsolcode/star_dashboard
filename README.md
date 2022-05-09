@@ -1,0 +1,1 @@
+https://stardashboard.netlify.app
