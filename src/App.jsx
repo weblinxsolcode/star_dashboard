@@ -7,7 +7,7 @@ function App() {
   }
   return (
     <div className="mx-3">
-      <div className="main  row mx-0 jumbotron " style={{position:"relative"}}>
+      <div className="main  row mx-0 jumbotron" style={{position:"relative"}}>
         <div className="sidebar mt-4    text-center col-12 col-md-1 col-lg-1">
           <div>
             <div className="for_pointer mb-5">
@@ -42,6 +42,7 @@ function App() {
         </div>
 
         <div className="upload col-12   col-md-5 col-lg-5 mx-0 mx-md-4 mx-lg-4 mt-5 mt-md-0 mt-lg-4">
+        <div className="">  
           <div className="d-flex justify-content-between align-items-center">
             <p className="fw-bold fs-5">Upload</p>
             <div class="input-group mb-3">
@@ -57,7 +58,7 @@ function App() {
               </span>
             </div>
           </div>
-          <nav style={{ breadcrumbDivider: ">" }} aria-label="breadcrumb">
+          <nav style={{ breadcrumbDivider:">" }} aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item">
                 <a href="">Doc Type</a>
@@ -94,7 +95,7 @@ function App() {
               </button>
             </div>
           </div>
-          <div className="preview mt-4 px-4 py-3 ">
+          <div className="preview mt-4 px-4 py-3 last_div">
             <div className="d-flex justify-content-between align-items-center">
               <p className="fw-bold fs-5 mb-0">Preview</p>
               <div className="d-flex align-items-center">
@@ -237,10 +238,12 @@ function App() {
                 Signiture
               </p>
             </div>
+            
           </div>
         </div>
+        </div>
 
-        <div className="col col col  mt-md-0 mt-lg-0 preview p-3" >
+        <div className="col col col mt-3  mt-md-0 mt-lg-0 preview p-3" >
           <div  >
             <div className="d-flex justify-content-between ">
               <div>
